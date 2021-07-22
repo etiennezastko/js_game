@@ -16,3 +16,20 @@
   position: absolute;
   z-index: 2;
 }
+#bomb {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url("img/pokeball.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+.enemies {
+  width: 40px;
+  height: 40px;
+  background-image: url("img/geodude-right-1.png");
+  position: absolute;
+  background-size: 100%;
+  background-position: center;
+}
